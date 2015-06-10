@@ -1,0 +1,69 @@
+% Compile with XeLaTeX or LuaLaTeX
+\documentclass[11pt,a4paper,oneside]{article}
+%\usepackage[latin1]{inputenc}
+%\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+%\usepackage{epsfig}
+\usepackage{epstopdf}
+%\usepackage{subfigure}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{array}
+\usepackage{gensymb}
+\usepackage{rotating}
+\usepackage{lettrine}
+%\usepackage{sectsty}
+
+\newcommand{\matlabel}[2]{% \matlabel{<label>}{<stuff>}
+  \begin{array}{@{}c@{}} \mbox{\small$#1$} \\ #2 \end{array}
+}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}{Definition}
+\newtheorem{lemma}{Lemma}
+
+%\usepackage[tmargin=1in,bmargin=1in,lmargin=1.25in,rmargin=1.25in]{geometry}
+\usepackage[pdfauthor={Wissem Allouchi},pdftitle={Combined camera and microphone calibration},pdfsubject={Master semester project},bookmarks=true,linkcolor=black,colorlinks=true,urlcolor=blue,citecolor=blue]{hyperref}
+
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+
+\newcommand{\submissionDay}{05}
+\newcommand{\submissionMonth}{June}
+\newcommand{\submissionYear}{2015}
+\newcommand{\submissionDate}{\sffamily \submissionMonth ~\submissionDay,~\submissionYear}
+\newcommand{\authorOfThesis}{Wissem Allouchi}
+\newcommand{\typeOfThesis}{Semester project report}
+
+
+\newcommand{\titleOfThesis}{\sffamily Calibration algorithms for audio-visual wearable devices}
+\newcommand{\supervisorOne}{\sffamily Ivan Dokmanic‡}
+\newcommand{\supervisorTwo}{\sffamily Juri Ranieri‡}
+\newcommand{\supervisorThree}{Prof. Martin Vetterli}
+
+
+\begin{document}
+\newcolumntype{C}{>{\(\displaystyle}c<{\)}@{}} 
+\newcolumntype{L}{>{\(\displaystyle}l<{\)}@{}} 
+\newcolumntype{R}{>{\(\displaystyle}r<{\)}@{}}
+
+\include{coverpage}
+
+\tableofcontents
+\include{introduction}
+%\include{approach}
+
+
+\clearpage
+%bibliography
+\bibliographystyle{plain}
+\bibliography{MasterProj}
+\addcontentsline{toc}{section}{References}
+
+\end{document}
