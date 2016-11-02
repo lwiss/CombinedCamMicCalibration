@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.18)  7 JUN 2015 23:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.18)  13 JUN 2015 01:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -383,7 +383,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip55
 )
-(./Report.aux (./coverpage.aux) (./introduction.aux))
+(./Report.aux)
 \openout1 = `Report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
@@ -473,7 +473,7 @@ rted-to.pdf images/epfl_logo.eps>
 (epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/epfl_logo-eps-converted-to.pdf, id=12, 158.5925pt x 77.28876pt>
+<images/epfl_logo-eps-converted-to.pdf, id=4, 158.5925pt x 77.28876pt>
 File: images/epfl_logo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/epfl_logo-eps-converted-to.pdf>
@@ -481,7 +481,7 @@ Package pdftex.def Info: images/epfl_logo-eps-converted-to.pdf used on input li
 ne 39.
 (pdftex.def)             Requested size: 85.35826pt x 41.59967pt.
 
-<images/lcav_logo_320x180.jpg, id=13, 321.2pt x 180.675pt>
+<images/lcav_logo_320x180.jpg, id=5, 321.2pt x 180.675pt>
 File: images/lcav_logo_320x180.jpg Graphic file (type jpg)
 
 <use images/lcav_logo_320x180.jpg>
@@ -506,64 +506,57 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
-s/epfl_logo-eps-converted-to.pdf> <./images/lcav_logo_320x180.jpg>]) (./Report.
-toc)
+s/epfl_logo-eps-converted-to.pdf> <./images/lcav_logo_320x180.jpg>])
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
 \tf@toc=\write4
 \openout4 = `Report.toc'.
 
- [2
+[2
 
 
 ]
 \openout2 = `introduction.aux'.
 
+ (./introduction.tex [3
 
-(./introduction.tex
-
-LaTeX Warning: Citation `fuchs2011' on page 3 undefined on input line 2.
-
-<images/success_one_mic.pdf, id=35, 845.1575pt x 597.23125pt>
-File: images/success_one_mic.pdf Graphic file (type pdf)
-
-<use images/success_one_mic.pdf>
-Package pdftex.def Info: images/success_one_mic.pdf used on input line 6.
-(pdftex.def)             Requested size: 288.0011pt x 203.52069pt.
-) [3
-
- <./images/success_one_mic.pdf, page is rotated 90 degrees>]
+]) [4]
 No file Report.bbl.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
 (./Report.aux (./coverpage.aux) (./introduction.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 69.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
-Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: AB9CD178FED6066A9E662C4D43FB9B2A;106.
 
 
-LaTeX Warning: There were undefined references.
+Package rerunfilecheck Warning: File `Report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
+Package rerunfilecheck Info: Checksums for `Report.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  A02D95553E30B97FF125B1AA17CF9044;47.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
  ) 
 Here is how much of TeX's memory you used:
- 7480 strings out of 493117
- 113391 string characters out of 6135433
- 199481 words of memory out of 5000000
- 10793 multiletter control sequences out of 15000+600000
- 13178 words of font info for 49 fonts, out of 8000000 for 9000
+ 7447 strings out of 493117
+ 112862 string characters out of 6135433
+ 204165 words of memory out of 5000000
+ 10769 multiletter control sequences out of 15000+600000
+ 11315 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,6n,39p,320b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb>
-Output written on Report.pdf (3 pages, 117697 bytes).
+ 42i,5n,38p,470b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb>
+Output written on Report.pdf (4 pages, 111233 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
- 32 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 57 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
